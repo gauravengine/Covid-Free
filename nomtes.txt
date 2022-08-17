@@ -1,0 +1,21 @@
+So Now I am Gonaa explain the working of the project 
+The hardware module is meant to be installed in hospitals , especially covid wards
+
+Then the patient Spo2 and heart rate readings are calculated in the microcontroller
+
+and the data is sent to the apache server and eventually saved in the database 
+
+The database i have used is MySql Database And the database schema is as follows :
+
+as you can see the tables are normalised , we have separated the state table 
+
+Now this database is connected to django website 
+ 
+and there we display bar charts of avg spo2 and avg bpm calculated realtime 
+
+The way we calculate svg spo2 is simple a sql query of avg() is run for each state 
+
+which sums all the Spo2 of that state and divides it by the number of datapoints available for that state
+
+ 
+

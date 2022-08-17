@@ -1,0 +1,7 @@
+Let \( E_{i} \) be the \(i^{th}\) entry in the database and \( S_{i} \) , \( St_{i} \) be the \( SpO_{2} \) and \(State_{id}\) of the \(i^{th}\) state. \\
+Let there be \(y\) enteries in the table where \(State_{id}\) = \(j\) \\
+Then \(j_{th}\) State Average \( SpO_{2} \) will be equals to : \\
+\( x_{j} = \frac { \sum_{i=1}^n\{S_{i}:St_{i}=j \} } {y}  \)
+\\
+Now Oxygen Share of \( j_{th} \) state is calculated as :
+
